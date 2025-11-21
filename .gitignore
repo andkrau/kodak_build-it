@@ -1,0 +1,13 @@
+# Folders
+DIST/
+EXE/
+ORIGINAL/
+SETUP/
+
+# Files
+*.bmp
+*.cmd
+*.exe
+*.ico
+*.ini
+*.iss
