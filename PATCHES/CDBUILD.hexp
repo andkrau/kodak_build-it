@@ -8,3 +8,14 @@ C: 6195001891fb215d10d370b842761afe8c28e6de3e4710182d6c0de02d6ff458
 # jmp 60001ABA
 A: 0x00000e99
 V: 0xEB1F
+
+# 60026BDE
+# Check HKCU (1) instead of HKLM (2) for PTS_ROOT value (installation path)
+# push 80000001
+A: 0x00025FDE
+V: 0x6801000080
+
+# Reference the PTS_ROOT value in the same registry key as the other entries
+# Change "CD Builder" to "CDBuild"
+A: 0x0006BB5F
+V: 0x4275696C64000000
