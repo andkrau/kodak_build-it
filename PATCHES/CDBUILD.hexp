@@ -19,3 +19,11 @@ V: 0x6801000080
 # Change "CD Builder" to "CDBuild"
 A: 0x0006BB5F
 V: 0x4275696C64000000
+
+# 600426EE
+# Crash when opening the file dialog box
+# The entire section of code can be bypassed, but then the folder dialog box then breaks
+# This change conditionally bypasses the code when it is unsafe to open the dialog box
+# test eax, eax
+A: 0x00041AEE
+V: 0x85C0
