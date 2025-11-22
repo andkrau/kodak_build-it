@@ -17,7 +17,7 @@ V: 0x6801000080
 
 # Reference the PTS_ROOT value in the same registry key as the other entries
 # Change "CD Builder" to "CDBuild"
-A: 0x0006BB5F
+A: 0x0006BB61
 V: 0x4275696C64000000
 
 # 600426EE
