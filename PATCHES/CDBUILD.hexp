@@ -1,0 +1,10 @@
+# CDBUILD.EXE
+C: 6195001891fb215d10d370b842761afe8c28e6de3e4710182d6c0de02d6ff458
+
+# 60001A99
+# Application locks up when starting due to missing file associations
+# This can be worked around by closing the application from the taskbar
+# Better to remove the forced file associations
+# jmp 60001ABA
+A: 0x00000e99
+V: 0xEB1F
