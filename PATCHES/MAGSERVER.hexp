@@ -1,0 +1,11 @@
+# MAGSERVER.DLL
+C: c27cdce75dbd0ca6834b7e76744c03c62ba3aea382984032effc3fb5563cb696
+
+# 603D7BC7
+# Crash just after PMF file is created
+# Issue is with GetFreeDiskSpaceA overflowing
+# Free disk space could end up as a negative value
+# Set free disk space to 2,147,483,647 as that is the largest signed 32-bit value
+# MOV EAX, 0x7FFFFFFF
+A: 0x00006FC7
+V: 0xB8FFFFFF7F909090909090909090
