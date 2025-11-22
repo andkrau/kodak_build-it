@@ -27,3 +27,19 @@ V: 0x4275696C64000000
 # test eax, eax
 A: 0x00041AEE
 V: 0x85C0
+
+# 6004278D
+# Possible crash when opening the file dialog box
+# Windows 7-10 require this patch while Windows 11 does not
+# Always jumping past this section is safe for both file and folder dialogs
+# jmp 6004279B
+A: 0x00041B8D
+V: 0xEB0C
+
+# 600427A1
+# Possible crash when opening the file dialog box
+# Windows 7-10 require this patch while Windows 11 does not
+# Always jumping past this section is safe for both file and folder dialogs
+# jmp 600427C3
+A: 0x00041BA1
+V: 0xEB20
