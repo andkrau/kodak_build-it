@@ -1,7 +1,7 @@
 
 1 VERSIONINFO
-FILEVERSION 1,5,1,0
-PRODUCTVERSION 1,5,1,0
+FILEVERSION 1,6,1,0
+PRODUCTVERSION 1,6,1,0
 FILEOS 0x40004
 FILETYPE 0x1
 {
@@ -11,13 +11,13 @@ BLOCK "StringFileInfo"
 	{
 		VALUE "Comments", "ScriptMaker Resources"
 		VALUE "CompanyName", "Eastman Kodak Company"
-		VALUE "FileDescription", "ScriptMaker Resources Version 1.5.1"
-		VALUE "FileVersion", "1.5.1"
+		VALUE "FileDescription", "ScriptMaker Resources Version 1.6.1"
+		VALUE "FileVersion", "1.6.1"
 		VALUE "InternalName", "SCRMAKERRES.DLL"
 		VALUE "LegalCopyright", "Copyright Eastman Kodak Company 1995"
 		VALUE "OriginalFilename", "SCRMAKERRES.DLL"
 		VALUE "ProductName", "SCRIPTMAKER Resources"
-		VALUE "ProductVersion", "1.5.1"
+		VALUE "ProductVersion", "1.6.1"
 	}
 }
 
