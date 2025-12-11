@@ -12,7 +12,7 @@ This project restores, patches, and updates the original Build-It tools so they 
 ### Compatibility Fixes
 - Fixed crash when opening file dialogs
 - Fixed crash just after PMF creation
-- Bypassed code that crashes on older and newer versions of Windows
+- Bypassed code that crashes on newer versions of Windows
 - Removed lockups caused by missing/failed file associations
 
 ### Feature Removals / Simplifications
